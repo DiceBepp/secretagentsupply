@@ -82,6 +82,10 @@ ul {
   justify-content: space-around;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 li {
   margin: 0.75rem;
 }
@@ -166,13 +170,14 @@ footer {
     font-size: 1.75rem;
   }
   .visible {
-    visibility: hidden;
+    display: none;
   }
-  .collapse {
-    visibility: visible;
-  }
-  ul {
+  .mobile-nav {
+    display: block;
     justify-content: center;
+  }
+  .mobile-nav li {
+    margin: 0.75rem;
   }
   .subcontainer {
     width: 47%;
