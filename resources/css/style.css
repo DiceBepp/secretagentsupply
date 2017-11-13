@@ -82,7 +82,7 @@ ul {
   justify-content: space-around;
 }
 
-.mobile-nav {
+.mobile {
   display: none;
 }
 
@@ -169,15 +169,12 @@ footer {
   .banner h1 {
     font-size: 1.75rem;
   }
-  .visible {
+  .pc {
     display: none;
   }
-  .mobile-nav {
-    display: block;
+  .mobile {
+    display: flex;
     justify-content: center;
-  }
-  .mobile-nav li {
-    margin: 0.75rem;
   }
   .subcontainer {
     width: 47%;
@@ -187,7 +184,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 480px) {
   .logo p {
     display: none;
   }
@@ -208,13 +205,13 @@ footer {
     height: 5rem;
     margin-top: 10rem;
   }
-  .banner h1 {
-    font-size: 1rem;
-    margin-left: 2rem;
-  }
   .banner p {
     font-size: 0.77rem;
     margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .banner h1 {
+    font-size: 1rem;
     margin-left: 2rem;
   }
   .subcontainer {
@@ -228,9 +225,7 @@ footer {
     flex-direction: column;
     margin: 0 auto;
   }
-  .footer {
-    justify-content: center;
-  }
+
   .info {
     width: 90%;
     margin: 0 auto;
