@@ -184,7 +184,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 470px) {
   .logo p {
     display: none;
   }
